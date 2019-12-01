@@ -1,0 +1,13 @@
+<div>
+    <div class="panel">
+        <ul>
+            <h3>
+                <li *ngFor="let b of birdSrv.birds">{{b.name}}</li>
+            </h3>
+        </ul>
+    </div>
+
+    <div class="card">
+        <app-birds-card></app-birds-card>
+    </div>
+</div>

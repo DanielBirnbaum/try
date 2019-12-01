@@ -1,0 +1,27 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img{
+    width: 70%;
+    border: 2px dashed black;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+app-navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #68cef5b5;
+    align-items: center;
+    border: 2px solid black;
+    
+}
